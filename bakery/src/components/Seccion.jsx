@@ -21,13 +21,14 @@ function Seccion({ titulo, elementos, Componente, filtro }) {
 
     <>
     <section 
-     aria-labelledby={idTitulo}
+     aria-labelledby={idTitulo} //Para que la sección se referencie por el contenido
      className="max-w-7xl mx-auto py-6 px-4">
 
       <header className="text-center mb-8 mt-6">
         <h2 id={idTitulo} className="text-base heading-base heading-h2">{titulo}</h2>
       </header>
 
+      {/*Se genera un grid que por defecto tiene 1 columna, 2 en dispositivos pequeños y 4 en grandes*/}
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center items-stretch">
         {lista.map((item, index) => (
           <li key={index}>

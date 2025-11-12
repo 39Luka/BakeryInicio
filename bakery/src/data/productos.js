@@ -131,41 +131,41 @@ export const productos = [
     descripcion: "Crujientes y aromáticas, elaboradas con mantequilla natural.",
     precio: 1.50,
     categoria: "Galletas",
-    imagen: "https://example.com/img/galletas-mantequilla.jpg"
+    imagen: "https://i.ibb.co/QFs1qmJb/galletas-de-mantequilla.jpg"
   },
   {
     nombre: "Galletas de avena y pasas",
     descripcion: "Caseras, con avena integral, pasas y un toque de canela.",
     precio: 1.80,
     categoria: "Galletas",
-    imagen: "https://example.com/img/galletas-avena.jpg"
+    imagen: "https://i.ibb.co/8VjhGhG/galletas-de-avena-pasas.jpg"
   },
   {
     nombre: "Pan de cereales",
     descripcion: "Pan elaborado con mezcla de harinas y granos enteros.",
     precio: 3.10,
     categoria: "Pan",
-    imagen: "https://example.com/img/pan-cereales.jpg"
+    imagen: "https://i.ibb.co/Q7XdP9qq/pan-de-cereales.jpg"
   },
   {
     nombre: "Mini croissants rellenos",
     descripcion: "Croissants pequeños con relleno de chocolate o crema pastelera.",
     precio: 3.50,
     categoria: "Bollería",
-    imagen: "https://example.com/img/mini-croissants.jpg"
+    imagen: "https://i.ibb.co/5C0JB3H/mini-croissant-rellenos.jpg"
   },
   {
     nombre: "Tarta de zanahoria",
     descripcion: "Bizcocho húmedo con zanahoria rallada y cobertura de queso crema.",
     precio: 13.50,
     categoria: "Pasteles",
-    imagen: "https://example.com/img/tarta-zanahoria.jpg"
+    imagen: "https://i.ibb.co/zCGpy9n/tarta-de-zanahoria.jpg"
   },
   {
     nombre: "Rosquillas caseras",
     descripcion: "Tradicionales rosquillas fritas con aroma a anís y azúcar glas.",
     precio: 1.40,
     categoria: "Bollería",
-    imagen: "https://example.com/img/rosquillas.jpg"
+    imagen: "https://i.ibb.co/QLT60HS/rosquillas-caseras.jpg"
   }
 ];

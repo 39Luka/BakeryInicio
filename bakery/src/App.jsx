@@ -1,7 +1,7 @@
 import Seccion from "./components/Seccion";
 import "./assets/styles/index.css";
 import { productos } from "./data/productos";
-import Producto from "./components/Card";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
     role="main"
     tabIndex={-1}
     >
-    <Seccion titulo="Nuestros Productos" elementos={productos} Componente={Producto}/>    
+    <Seccion titulo="Nuestros Productos" elementos={productos} Componente={Card}/>    
     </main>
     </>
   );

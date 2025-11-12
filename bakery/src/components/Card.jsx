@@ -10,10 +10,11 @@
 function Card({ nombre, descripcion, imagen }) {
   return (
     <article 
-    tabIndex={0}
+    tabIndex={0} //Para seleccionar con Tab
     aria-label="nombre"
     className="w-[286px] bg-[var(--color-white)] rounded-xl shadow-lg flex flex-col h-full">
       <figure>
+        {/* === Imagen === */}
         <img
           src={imagen}
           alt={nombre}
