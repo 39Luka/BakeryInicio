@@ -7,7 +7,7 @@ Actualmente se ha desarrollado la primera sección donde aparecen los diferentes
 ## Justificaciones de accesibilidad, usabilidad y buenas prácticas
 
 ### Accesibilidad
-- Se ha utilizado una jerarquía semántica adecuada con etiquetas HTML5 como <main>, <section>, <header>, <article> y <figure>, etiquetas aria, arialabelledby, tabindex y textos alternativos descriptivos a las imágenes para mejorar la accesibilidad.
+- Se ha utilizado una jerarquía semántica adecuada con etiquetas HTML5 como main, section, header, article y figure, etiquetas aria, arialabelledby, tabindex y textos alternativos descriptivos a las imágenes para mejorar la accesibilidad.
 [Imagen de Card](docs/img/roles_aria_tab_1.png)
 [Imagen de Sección](docs/img/roles_aria_tab_2.png)
 [Navegación por teclado](docs/img/navegacion_teb.png)
