@@ -10,7 +10,6 @@
 
 /* ===== Headings ===== */
 .heading-base{
-  color: var(--color-primary);
   font-weight: var(--heading-weight-base);
 
 }

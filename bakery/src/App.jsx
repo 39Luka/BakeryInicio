@@ -4,19 +4,23 @@ import { Route, Routes } from "react-router-dom";
 import ProductosPage from "./pages/ProductosPage.jsx";
 import Header from "./components/Header.jsx";
 import Home from "./pages/Home.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
     <>
-    <Header />
-    <Routes>
-      <Route path="/" element={<MainContent />}>
-        <Route index element={<Home />} />
-        <Route path="home" element={<Home />} />
-        <Route path="productos" element={<ProductosPage />} />
+      <div className="flex flex-col min-h-screen" role="application">
+        <Header />
+        <Routes>
+          <Route path="/" element={<MainContent />}>
+            <Route index element={<Home />} />
+            <Route path="home" element={<Home />} />
+            <Route path="productos" element={<ProductosPage />} />
 
-      </Route>
-    </Routes>
+          </Route>
+        </Routes>
+        <Footer />
+      </div>
     </>
   );
 }
