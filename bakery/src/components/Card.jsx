@@ -9,24 +9,21 @@
 
 function Card({ nombre, descripcion, imagen }) {
   return (
-    <article 
-    tabIndex={0} //Para seleccionar con Tab
-    aria-label={nombre}
-    className="w-[286px] bg-white rounded-xl shadow-lg flex flex-col h-full">
+    <article
+      tabIndex={0} //Para seleccionar con Tab
+      aria-label={nombre}
+      className="w-full bg-white rounded-xl shadow-lg flex flex-col h-full"
+    >
       <figure>
         {/* === Imagen === */}
-        <img
-          src={imagen}
-          alt={nombre}
-          className="w-full h-[170px] object-cover rounded-t-xl"
-        />
+        <img src={imagen} alt={nombre} className="w-full h-40 sm:h-44 md:h-48 lg:h-56 object-cover rounded-t-xl" />
         <figcaption className="p-4">
           {/* === Título === */}
-          <h3 className="text-base heading-base heading-h3  text-(--color-primary) mb-1">
+          <h3 className="text-sm sm:text-base md:text-lg heading-base heading-h3 text-(--color-primary) mb-1">
             {nombre}
           </h3>
           {/* === Descripción === */}
-          <p className="text-base text-medium text-(--color-grey-2) pt-1">
+          <p className="text-xs sm:text-sm md:text-base text-medium text-(--color-grey-2) pt-1">
             {descripcion}
           </p>
         </figcaption>

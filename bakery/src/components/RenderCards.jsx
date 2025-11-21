@@ -23,13 +23,13 @@ function RenderCards({ elementos, options = {} }) {
   // Limitar cantidad de elementos si se indica
   if (maxItems) items = items.slice(0, maxItems);
 
-  // Generar lista de tarjetas
-  return items.map((item, index) => (
-    <Link to={`/productos/${item.id}`}  key={index} className="contents" >
-    <li key={index}>
-      <Card {...item} />
+  // Generar lista de tarjetas dentro de <li> para que el <ul> padre gestione la rejilla
+  return items.map((item) => (
+    <li key={item.id} className="w-full">
+      <Link to={`/productos/${item.id}`} className="contents">
+        <Card {...item} />
+      </Link>
     </li>
-    </Link>
   ));
 }
 

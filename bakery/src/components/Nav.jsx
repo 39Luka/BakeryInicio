@@ -1,12 +1,21 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
     return (
-        <nav className="flex gap-6">
-            <Link className="px-4 py-2 text-base text-bold text-large text-black hover:bg-(--color-primary) hover:rounded hover:text-white" to="/home">Home</Link>
-            <Link className="px-4 py-2 text-base text-bold text-large text-black hover:bg-(--color-primary) hover:rounded hover:text-white" to="/productos">Productos</Link>
+        <nav className="flex gap-12">
+            <NavLink 
+                className={({ isActive }) => `text-base text-bold ${isActive ? "text-(--color-primary)" : "text-black hover:text-(--color-primary)"}`}
+                to="/home"
+            >
+                Home
+            </NavLink>
+            <NavLink 
+                className={({ isActive }) => `text-base text-bold ${isActive ? "text-(--color-primary)" : "text-black hover:text-(--color-primary)"}`}
+                to="/productos"
+            >
+                Productos
+            </NavLink>
         </nav>
-
     );
 }
 
