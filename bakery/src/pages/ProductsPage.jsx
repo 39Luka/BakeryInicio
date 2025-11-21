@@ -1,8 +1,8 @@
 
-import Seccion from "../components/Seccion";
-import { productos } from "../data/productos";
+import Seccion from "../components/Seccion.jsx";
+import { productos } from "../data/productos.js";
 import RenderCards from "../components/RenderCards.jsx";
-function ProductosPage() {
+function ProductsPage() {
   return (
     <>
       <Seccion titulo="Nuestros Productos">
@@ -15,4 +15,4 @@ function ProductosPage() {
   );
 }
 
-export default ProductosPage;
+export default ProductsPage;

@@ -19,7 +19,7 @@ function Seccion({titulo, children}) {
      className="max-w-7xl mx-auto py-6 px-4">
 
       <header className="text-start mb-8 mt-6">
-        <h2 id={idTitulo} className="text-base heading-base heading-h2">{titulo}</h2>
+        <h2 id={idTitulo} className="text-base heading-base heading-h2 text-(--color-primary)">{titulo}</h2>
       </header>
 
   

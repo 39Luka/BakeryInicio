@@ -22,11 +22,11 @@ function Card({ nombre, descripcion, imagen }) {
         />
         <figcaption className="p-4">
           {/* === Título === */}
-          <h3 className="text-base heading-base heading-h3 mb-1">
+          <h3 className="text-base heading-base heading-h3  text-(--color-primary) mb-1">
             {nombre}
           </h3>
           {/* === Descripción === */}
-          <p className="text-base text-small text-(--color-grey-2) leading-tight">
+          <p className="text-base text-medium text-(--color-grey-2) pt-1">
             {descripcion}
           </p>
         </figcaption>

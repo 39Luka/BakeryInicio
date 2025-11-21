@@ -15,7 +15,7 @@ function Home() {
 
       <Seccion titulo="Top Ventas">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center items-stretch">
-          <RenderCards elementos={productos} options={{maxItems: 8}}/>
+          <RenderCards elementos={productos} options={{maxItems: 8, order: (a, b) => b.totalVentas - a.totalVentas}}/>
         </ul>
       </Seccion>
     </>
