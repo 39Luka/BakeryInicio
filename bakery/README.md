@@ -12,17 +12,17 @@ Actualmente se ha desarrollado la página de inicio, la de productos y la detall
 
 - Se ha añadido un enlace "skip to main content" para facilitar la navegación a usuarios de lectores de pantalla.
 
-![Skip to main content](..docs/images/skip.png)
+![Skip to main content](docs/images/skip.png)
 
 - Se ha comprobado que la página puede ser leida por un lector de pantallas con la extensión Read Aloud.
   
-![Read Aloud](..docs/images/lector.png)
+![Read Aloud](docs/images/lector.png)
 
 
 ### Usabilidad
 - Se ha implementado un diseño responsivo para adaptarse a diferentes tamaños de pantalla.
   
-![Diseño responsivo](..docs/images/menu.png)
+![Diseño responsivo](docs/images/menu.png)
 
 ### Buenas prácticas
 - Se ha organizado el proyecto con una estructura Types-Base.
